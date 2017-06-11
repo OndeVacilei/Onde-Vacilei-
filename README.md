@@ -5,19 +5,20 @@
 - Desenvolvimento
 
 Front-end : HTML, CSS,BOOTSTRAP
+
 Back-end: PHP
 
 
 - Autores
 
-Edson Sales de Sousa Neto
-Lívia Caroline Tomaz Santos
-Fernanda de Lima Jordão
-Déborah Gyovanna Soares da Costa 
-Letícia Raquel Lopes de Andrade
-Maria Laís Nunes Bezerra da Silva
-Joaneide Polla Raimundo Da Silva
-Leony Alexandre Gabriel Soares
+Edson Sales de Sousa Neto, 
+Lívia Caroline Tomaz Santos, 
+Fernanda de Lima Jordão, 
+Déborah Gyovanna Soares da Costa, 
+Letícia Raquel Lopes de Andrade, 
+Maria Laís Nunes Bezerra da Silva, 
+Joaneide Polla Raimundo Da Silva, 
+Leony Alexandre Gabriel Soares.
 
 - Reconhecimento
 
