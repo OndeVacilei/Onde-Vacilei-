@@ -1,0 +1,335 @@
+html, body {
+    min-height: 100%;
+    height: 100%;
+    padding: 0; border: 0; margin: 0;
+}
+/* Fonts config */
+@font-face { font-family: openSans; font-style: normal; font-weight: normal; src: url('../fonts/OpenSans-Regular.ttf'); } 
+@font-face { font-family: oxygen; font-style: normal; font-weight: normal;src: url('../fonts/Oxygen-Regular.ttf'); } 
+@font-face { font-family: karla; font-style: normal; font-weight: bolder; src: url('../fonts/Karla-Bold.ttf');}
+@font-face { font-family: karla; font-style: normal; font-weight: normal; src: url('../fonts/Karla-Regular.ttf');}
+/* Fim Fonts config */
+
+/*------CSS LOGIN---------*/
+.body-login{
+    background: url("../img/bg_Inicio.jpg") no-repeat center top;
+    height: 100%;
+    background-size: cover;
+    display: block;
+}
+div.box{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login-box{
+    max-width:600px;
+    padding: 1%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.login-box .logo-login{
+    margin-left: 5%;
+}
+
+#button-style1 {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #f05f40;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    text-shadow: none;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+#button-style1:hover { opacity: 0.6; color: #fff; }
+
+#button-style1:active { outline: 0; opacity: 0.6; color: #fff; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+#button-style1:focus { outline: 0; opacity: 0.6; background: #4aaf51; color: #fff; }
+
+#button-style1:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; background: #4aaf51; color: #fff; }
+
+.btn-round-lg{
+    background: #f05f40;
+    border-radius: 22.5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.universidade-img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+}
+/*------------------------*/
+
+/*-----------Menú CSS-------------*/
+.navbar-default{
+    background: #ffffff;
+    height: 60px;
+    border-color: #f05f40;
+}
+
+.navbar-right{
+    margin-top: 1%;
+    font-size: 16px;
+}
+/*e7e7cf*/
+/*#fc530b*/
+/*#696969*/
+.navbar-default .navbar-nav > li > a {
+    font-family: karla;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fc530b;
+}
+li.divisor-nav{
+    color: #e7e7cf;
+    margin-top: 2.5%;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}
+
+/*.navbar-default .navbar-nav > li > a {
+    font-family: 
+}*/
+#conteudo {
+    margin-top: 50px;
+}
+
+#logo{
+    margin-top: -25%;
+    margin-left: -5%;
+}
+/* Fim do Menu CSS*/
+
+
+/*------------ Conteudo ---------------*/
+
+div.home-bg{
+    background: url("../img/bg_Inicio.jpg") no-repeat center top;
+    height: 100%;
+    background-size: cover;
+    display: block;
+}
+div.empresa-bg{
+    background-color: #f05f40;
+    height: 100%;
+    background-size: cover;
+    display: block;
+}
+
+div.divisor-bg{
+    background: url("../img/back_Divisor.jpg") no-repeat center top;
+    height: 100%;
+    background-size: cover;
+    /*    background-attachment: fixed;*/
+    display: block;
+}
+div.servico-bg{
+    background: url("../img/back_Servicos.jpg") no-repeat center top;
+    height: 100%;
+    background-size: cover;
+    display: block;
+}
+div.cliente-bg{
+    background-repeat:no-repeat;
+}
+div.content-header {
+    margin-bottom: 30%;
+}
+
+div.logomarca {
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+div.logomarca img{
+    width: 100%;
+    height:100%;
+}
+
+div.desc   {
+    margin-top: 10%;
+    margin-left: 18%;
+    text-align: right;
+    font-family: oxygen, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14pt;
+    color: #e7e7cf;
+}
+img.predios{
+    margin-top: 70%;
+}
+div.content-header .imagem-logo{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 1.5%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+div.content-header .seta   {
+    margin-top: 2.5%;
+    margin-bottom: 15%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.head-div{
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: karla, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    color: #000000;
+}
+
+div.empresa-txt{
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    text-align: justify;
+    font-family: oxygen, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14pt;
+    color: #ffffff;
+}
+
+div.jumb-txt{
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family: oxygen, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12pt;
+    color: #000000;    
+}
+
+
+div.servico-total{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+div.servico-icons{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+div.servico-titulo{
+    margin-bottom: 8%;
+    text-align: center;
+    font-family: proximaNovaAC, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: #0c4660;
+}
+div.servico-text{
+    margin-bottom: 15%;
+    /*text-align: ;*/
+    font-family: clementePDai, sans-serif;
+    font-style: normal;
+    font-size: 14pt;
+    color: #0c4660;    
+}
+
+figure.cliente-box{
+    position: relative;
+}
+
+figure.cliente-box img{
+    width: 100%;
+    height: 100%;
+}
+figure.cliente-box h3{
+    margin-bottom: 8%;
+    text-align: center;
+    font-family: proximaNovaAC, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+figure.cliente-box figcaption{
+    position: absolute;
+    top: 0px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+    text-align: center;
+    margin-top: 25%;
+    padding-left:25%;
+    padding-right: 25%;
+    opacity: 1;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.contato-left{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.contato-end{
+    margin-bottom: 10%;
+    font-family: proximaNovaA, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14pt;
+    color: #0c4660; 
+}
+.contato-img{
+    margin-bottom: 10%;
+
+}
+.contato-img img{
+    width: 100%;
+    height: 100%; 
+}
+.contato-map{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.form-control.form-contato{
+
+    background-color : #181919; 
+    color: white;
+
+}
+/*------------Fim conteudo-------------*/
